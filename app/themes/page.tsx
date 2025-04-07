@@ -35,7 +35,9 @@ export default function ThemesPage() {
             <div className="p-6 bg-white rounded-lg shadow-md border border-green-100">
               <h2 className="text-2xl font-bold mb-4 text-green-700">Food / Bia</h2>
               <p className="text-muted-foreground mb-4">Learn words for different foods, meals, and cooking.</p>
-              <Button className="w-full bg-green-600 hover:bg-green-700">Explore</Button>
+              <Link href="/themes/food-game" target="_blank">
+                <Button className="w-full bg-green-600 hover:bg-green-700">Explore</Button>
+              </Link>
             </div>
           </div>
         </div>
