@@ -11,7 +11,7 @@ export default function Home() {
             <div className="text-center space-y-4">
               <h1 className="text-5xl md:text-6xl font-bold tracking-tighter text-green-700">Fáilte</h1>
               <p className="Stext-xl text-muted-foreground">
-              Suíomh difreáil d'fhoghlaimeoirí Gaeilge T1, T2, nuafhoghlaimeoirí agus múinteoirí.
+              Suíomh difreáilte d'fhoghlaimeoirí Gaeilge T1, T2, nuafhoghlaimeoirí agus múinteoirí.
               </p>
             </div>
           </div>

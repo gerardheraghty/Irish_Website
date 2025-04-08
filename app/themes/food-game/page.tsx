@@ -136,7 +136,7 @@ export default function FoodGamePage() {
           <Link href="/themes" className="text-green-600 hover:text-green-700">
             <Button variant="outline" className="flex items-center gap-2">
               <Home className="h-4 w-4" />
-              Back to Themes
+              Ar ais chuig na téamaí
             </Button>
           </Link>
         </div>
@@ -235,7 +235,7 @@ export default function FoodGamePage() {
       <footer className="py-6 border-t bg-white">
         <div className="container px-4 md:px-6">
           <p className="text-center text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Irish Language Learning. All rights reserved.
+            &copy; {new Date().getFullYear()} Cianas Website
           </p>
         </div>
       </footer>
