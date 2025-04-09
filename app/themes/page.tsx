@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { ArrowLeft } from "lucide-react"
+import { ArrowLeft, Home } from "lucide-react"
 
 export default function ThemesPage() {
   return (
@@ -8,8 +8,8 @@ export default function ThemesPage() {
       <main className="flex-1">
         <div className="container px-4 md:px-6 py-8">
           <Link href="/" className="inline-flex items-center mb-6 text-green-600 hover:text-green-700">
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            Back to Home
+              <Home className="mr-2 h-4 w-4" />
+            Ar ais go baile 
           </Link>
 
           <h1 className="text-4xl font-bold tracking-tighter mb-4 text-green-700">Téamaí</h1>
