@@ -41,7 +41,7 @@ export default function themes1() {
               </div>
             </Link>
 
-            <Link href="/themes/carbh-as-duit/section-2" className="block">
+            <Link href="/themes/carbh-as-duit/section-2-a" className="block">
               <div className="p-6 bg-white rounded-lg shadow-md border border-green-100 hover:shadow-lg transition-shadow h-full">
                 <h2 className="text-2xl font-bold mb-4 text-green-700">2. Gramadach</h2>
                 <p className="text-muted-foreground mb-4"></p>

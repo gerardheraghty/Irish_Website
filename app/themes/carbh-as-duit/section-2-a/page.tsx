@@ -42,7 +42,7 @@ const translations = [
   "The population of Dublin is rising.",
 ]
 
-export default function FamilySection2Page() {
+export default function TeamaiU1S2Page1() {
   // Current sentence index
   const [currentIndex, setCurrentIndex] = useState(0)
 
@@ -313,7 +313,7 @@ export default function FamilySection2Page() {
               </Button>
             </Link>
 
-            <Link href="/themes/carbh-as-duit/section-3">
+            <Link href="/themes/carbh-as-duit/section-2-b">
               <Button className="bg-green-600 hover:bg-green-700 flex items-center">
                 Next Section
                 <ArrowRight className="ml-2 h-4 w-4" />

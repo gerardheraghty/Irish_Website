@@ -33,7 +33,7 @@ const vocabularyPairs = [
   { irish: "Bungaló (f)", english: "Bungalow", difficulty: "medium" },
 ]
 
-export default function FamilySection1Page() {
+export default function TeamaiU1S1Page() {
   // Shuffle the vocabulary lists
   const [irishWords, setIrishWords] = useState<Array<{ word: string; difficulty: string }>>([])
   const [englishWords, setEnglishWords] = useState<string[]>([])
@@ -281,14 +281,14 @@ export default function FamilySection1Page() {
           </div>
 
           <div className="flex justify-between">
-            <Link href="/themes/family">
+            <Link href="/themes/carbh-as-duit">
               <Button variant="outline" className="flex items-center">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Unit Plan
+                Ar ais chuig an bPlean Aonad
               </Button>
             </Link>
 
-            <Link href="/themes/family/section-2">
+            <Link href="/themes/carbh-as-duit/section-2-a">
               <Button className="bg-green-600 hover:bg-green-700 flex items-center">
                 Next Section
                 <ArrowRight className="ml-2 h-4 w-4" />
