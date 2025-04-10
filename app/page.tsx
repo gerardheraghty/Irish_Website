@@ -3,14 +3,14 @@ import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-orange-200 to-white">
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="py-12 md:py-20 bg-gradient-to-b from-green-50 to-white">
+        <section className="py-12 md:py-20">
           <div className="container px-4 md:px-6">
             <div className="text-center space-y-4">
-              <h1 className="text-5xl md:text-6xl font-bold tracking-tighter text-green-700">Fáilte</h1>
-              <p className="Stext-xl text-muted-foreground">
+              <h1 className="text-6xl md:text-6xl font-bold tracking-tighter text-green-700">Fáilte</h1>
+              <p className="text-3xl text-muted-foreground">
               Suíomh difreáilte d'fhoghlaimeoirí Gaeilge T1, T2, nuafhoghlaimeoirí agus múinteoirí.
               </p>
             </div>
@@ -79,4 +79,3 @@ export default function Home() {
     </div>
   )
 }
-

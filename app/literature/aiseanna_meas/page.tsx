@@ -4,7 +4,7 @@ import { ArrowLeft } from "lucide-react"
 
 export default function blian_1_t1() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-orange-200 to-white">
       <main className="flex-1">
         <div className="container px-4 md:px-6 py-8">
           <Link href="/literature" className="inline-flex items-center mb-6 text-green-600 hover:text-green-700">

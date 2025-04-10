@@ -4,7 +4,7 @@ import { ArrowLeft, Home } from "lucide-react"
 
 export default function ThemesPage() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-orange-200 to-white">
       <main className="flex-1">
         <div className="container px-4 md:px-6 py-8">
           <Link href="/" className="inline-flex items-center mb-6 text-green-600 hover:text-green-700">
@@ -52,7 +52,7 @@ export default function ThemesPage() {
             <div className="p-6 bg-white rounded-lg shadow-md border border-green-100">
               <h2 className="text-2xl font-bold mb-4 text-green-700">Caitheamh aimsire</h2>
               <p className="text-muted-foreground mb-4"></p>
-              <Link href="/themes/food-game" target="_blank">
+              <Link href="/themes/caitheamh-aimsire">
                 <Button className="w-full bg-green-600 hover:bg-green-700">Explore</Button>
               </Link>
             </div>
