@@ -1,8 +1,8 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { ArrowLeft, BookOpen } from "lucide-react"
+import { ArrowLeft, BookOpen, GraduationCap, Castle } from "lucide-react"
 
-export default function AiseannaMeas() {
+export default function Blian1T1() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-orange-200 via-orange-100 to-white">
       {/* Header */}
@@ -28,18 +28,18 @@ export default function AiseannaMeas() {
 
           {/* Title Section */}
           <div className="mb-12 text-center">
-            <h1 className="text-4xl font-bold text-green-800 mb-4">Aiseanna Measúnachta</h1>
-            <p className="text-lg text-gray-700 max-w-2xl mx-auto">Fáilte go dtí roinn na n-aiseanna measúnachta. Roghnaigh ceann de na codanna thíos chun tús a chur le d'fhoghlaim.</p>
+            <h1 className="text-4xl font-bold text-green-800 mb-4">Bliain 2&3 T1: Litríocht</h1>
+            <p className="text-lg text-gray-700 max-w-2xl mx-auto">Fáilte go dtí roinn na litríochta don chéad bhliain. Roghnaigh ceann de na codanna thíos chun tús a chur le d'fhoghlaim.</p>
           </div>
 
           {/* Content Cards */}
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {/* Card 1 */}
-            <Link href="/literature/aiseanna_meas/staidear_comp" className="block group">
+            <Link href="/literature/blian_2_t1/urscealta" className="block group">
               <div className="p-8 bg-white rounded-xl shadow-md border border-green-100 hover:shadow-xl hover:border-green-300 transition-all duration-300 h-full flex flex-col relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-24 h-24 bg-orange-100 rounded-bl-full opacity-70"></div>
                 <BookOpen className="h-12 w-12 text-green-600 mb-4" />
-                <h2 className="text-2xl font-bold mb-4 text-green-700 group-hover:text-green-800 transition-colors">1. Staidéar Comparáideach</h2>
+                <h2 className="text-2xl font-bold mb-4 text-green-700 group-hover:text-green-800 transition-colors">1. Úrscéalta</h2>
                 <p className="text-gray-600 mb-6">Could put some small description here.</p>
                 <div className="mt-auto pt-4">
                   <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
@@ -48,7 +48,9 @@ export default function AiseannaMeas() {
                 </div>
               </div>
             </Link>
+
           </div>
+
         </div>
       </main>
 

@@ -4,6 +4,17 @@ import { Button } from "@/components/ui/button"
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-orange-200 to-white">
+      {/* Header */}
+      <header className="py-4 bg-green-700 text-white shadow-md">
+        <div className="container px-4 md:px-6 mx-auto flex justify-between items-center">
+          <h1 className="text-xl font-bold">scoláire.ie</h1>
+          <nav className="hidden md:flex space-x-4">
+            <Link href="/" className="hover:text-orange-200 transition-colors">Baile</Link>
+            <Link href="/themes" className="hover:text-orange-200 transition-colors">Téamaí</Link>
+            <Link href="/literature" className="hover:text-orange-200 transition-colors">Litríocht</Link>
+          </nav>
+        </div>
+      </header>  
       <main className="flex-1">
         {/* Hero Section with Updated Fonts and Celtic Symbol */}
         <section className="py-12 md:py-20">
@@ -90,11 +101,32 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="py-6 border-t">
-        <div className="container px-4 md:px-6">
-          <p className="text-center text-sm text-muted-foreground">&copy; {new Date().getFullYear()} Cianas Website</p>
+
+{/* Footer */}
+<footer className="py-8 border-t border-green-100 bg-white">
+        <div className="container px-4 md:px-6 mx-auto">
+          <div className="grid gap-8 md:grid-cols-3">
+            <div>
+              <h3 className="font-bold text-green-700 mb-4">scoláire.ie</h3>
+              <p className="text-sm text-gray-600">Acmhainn foghlama don Ghaeilge dírithe ar mhúinteoirí agus ar dhaltaí.</p>
+            </div>
+            <div>
+              <h3 className="font-bold text-green-700 mb-4">Naisc Úsáideacha</h3>
+              <ul className="space-y-2 text-sm">
+                <li><Link href="#" className="text-gray-600 hover:text-green-700 transition-colors">Téarmaí & Coinníollacha</Link></li>
+                <li><Link href="#" className="text-gray-600 hover:text-green-700 transition-colors">Polasaí Príobháideachta</Link></li>
+                <li><Link href="#" className="text-gray-600 hover:text-green-700 transition-colors">Faoin Suíomh</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-bold text-green-700 mb-4">Teagmháil</h3>
+              <p className="text-sm text-gray-600">Ríomhphost: example@emailaddress.ie</p>
+              <p className="text-sm text-gray-600 mt-2">Fón: 01-234-5678</p>
+            </div>
+          </div>
         </div>
       </footer>
+
     </div>
   )
 }

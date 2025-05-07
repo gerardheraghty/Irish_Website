@@ -5,11 +5,11 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft, Download, FileText, ExternalLink } from "lucide-react"
 
-export default function staidearCompPage() {
+export default function BlianT1Page() {
   const [isClient, setIsClient] = useState(false)
 
   // PDF file path
-  const pdfPath = "/documents/Staidéar_Comparáideach_acmhainnmheasúnaithe.pdf"
+  const pdfPath = "/documents/Trumptaí_Dumptaí_bileog_oibre.pdf"
 
   // Set isClient to true when component mounts (to avoid SSR issues with PDF viewer)
   useEffect(() => {
@@ -21,13 +21,13 @@ export default function staidearCompPage() {
       <main className="flex-1">
         <div className="container px-4 md:px-6 py-8">
           <div className="flex justify-between items-center mb-6">
-            <Link href="/literature/aiseanna_meas" className="inline-flex items-center text-green-600 hover:text-green-700">
+            <Link href="/literature/blian_2_t1" className="inline-flex items-center text-green-600 hover:text-green-700">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Ar ais chuig Áiseanna measúnaithe
+              Ar ais chuig Blian 2&3 - T1
             </Link>
           </div>
 
-          <h1 className="text-4xl font-bold tracking-tighter mb-4 text-green-700">Staidéar Comparáideach</h1>
+          <h1 className="text-4xl font-bold tracking-tighter mb-4 text-green-700">Trumptaí Dumptaí</h1>
           <p className="text-xl text-muted-foreground mb-8">Bileog Oibre</p>
 
           <div className="bg-white rounded-lg shadow-md p-6 mb-8">
@@ -35,11 +35,11 @@ export default function staidearCompPage() {
             <div className="flex justify-between items-center mb-6">
               <div className="flex items-center text-muted-foreground">
                 <FileText className="mr-2 h-5 w-5" />
-                <span>Staidéar_Comparáideach_acmhainnmheasúnaithe.pdf</span>
+                <span>Trumptaí_Dumptaí_bileog_oibre.pdf</span>
               </div>
 
               <div className="flex gap-3">
-                <a href={pdfPath} download="Staidéar_Comparáideach_acmhainnmheasúnaithe.pdf" className="inline-flex">
+                <a href={pdfPath} download="Trumptaí_Dumptaí_bileog_oibre.pdf" className="inline-flex">
                   <Button className="bg-green-600 hover:bg-green-700 flex items-center gap-2">
                     <Download className="h-4 w-4" />
                     Download PDF

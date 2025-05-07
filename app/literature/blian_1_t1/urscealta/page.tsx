@@ -23,7 +23,7 @@ export default function BlianT1Page() {
           <div className="flex justify-between items-center mb-6">
             <Link href="/literature/blian_1_t1" className="inline-flex items-center text-green-600 hover:text-green-700">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Ar ais chuig Blian 1 - Téarma 1
+              Ar ais chuig Blian 1 - T1
             </Link>
           </div>
 
@@ -78,11 +78,24 @@ export default function BlianT1Page() {
         </div>
       </main>
 
-      <footer className="py-6 border-t">
-        <div className="container px-4 md:px-6">
-          <p className="text-center text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Cianas Website.
-          </p>
+
+      {/* Footer */}
+      <footer className="py-8 border-t border-green-100 bg-white/80 mt-12">
+        <div className="container px-4 md:px-6 mx-auto">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <p className="text font-medium mb-4 md:mb-0">&copy; {new Date().getFullYear()} scoláire.ie</p>
+            <div className="flex space-x-6">
+              <Link href="/" className="text-green-600 hover:text-green-800 transition-colors">
+                Baile
+              </Link>
+              <Link href="/themes" className="text-green-600 hover:text-green-800 transition-colors">
+                Téamaí
+              </Link>
+              <Link href="/literature" className="text-green-600 hover:text-green-800 transition-colors">
+                Litríocht
+              </Link>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
